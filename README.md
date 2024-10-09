@@ -1,4 +1,4 @@
 
 This landing page for the KAT VR gadget is built using Next.js and designed to showcase the innovative virtual reality treadmill. The page highlights the device's key features, including advanced motion tracking, immersive experience, and full compatibility with various VR systems. With sections dedicated to technology, benefits, and a FAQ, it provides a clear overview for potential buyers. The responsive design ensures a seamless experience across devices, with an easy-to-navigate interface and a call-to-action for purchasing the gadget. Smooth animations and fast load times optimize user engagement.
 
-Demo - [kat-vr-next-js.vercel.app]
+Demo - https://kat-vr-next-js.vercel.app/
