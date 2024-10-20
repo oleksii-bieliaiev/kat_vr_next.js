@@ -14,7 +14,7 @@ const Version = () => {
   };
 
   return (
-    <section className='relative flex flex-col h-screen bg-gradient-to-r from-[#191536] to-[#000000] overflow-hidden'>
+    <section id='page-top' className='relative flex flex-col h-screen bg-gradient-to-r from-[#191536] to-[#000000] overflow-hidden'>
       <NavBar />
 
       <div className='grid lg:grid-cols-12 md:grid-cols-6 max-sm:grid-cols-2 lg:pr-[110px] md:pr-[34px] max-sm:pr-[34px] sm:pr-[34px] lg:pl-[110px] md:pl-[34px] max-sm:pl-[34px] sm:pl-[34px] min-h-screen md:place-items-center'>
