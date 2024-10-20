@@ -64,7 +64,7 @@ const Contacts = () => {
   };
 
   return (
-    <section id='contact' className='relative flex flex-col max-sm:min-h-[103vh] md:min-h-[130vh] lg:min-h-[85vh] 2xl:min-h-[70vh] 2xl:pt-[150px] 2xl:pb-[205px] lg:pt-[100px] lg:pb-[160px] md:pt-[70px] md:pb-[130px] sm:pt-[50px] max-sm:pt-[50px] bg-black lg:pr-[110px] lg:pl-[110px] md:pr-[34px] md:pl-[34px] max-sm:pl-[34px] max-sm:pr-[34px]'>
+    <section id='contact' className='relative flex flex-col max-sm:h-[103vh] md:min-h-[130vh] lg:min-h-[85vh] 2xl:min-h-[70vh] 2xl:pt-[150px] 2xl:pb-[205px] lg:pt-[100px] lg:pb-[160px] md:pt-[70px] md:pb-[130px] sm:pt-[50px] max-sm:pt-[50px] bg-black lg:pr-[110px] lg:pl-[110px] md:pr-[34px] md:pl-[34px] max-sm:pl-[34px] max-sm:pr-[34px]'>
       <div className='grid lg:grid-cols-12 md:grid-cols-6 max-sm:grid-cols-2 md:place-items-center sm:justify-items-start max-sm:justify-items-start lg:gap-1 md:gap-6'>
         <div className='flex flex-col lg:justify-center md:justify-start items-start 2xl:col-start-1 2xl:col-span-4 lg:col-start-1 lg:col-span-5 md:col-start-1 md:col-span-3 sm:col-start-1 sm:col-span-2 max-sm:col-start-1 max-sm:col-span-2 lg:w-[438px] lg:h-[276px] md:w-[340px] md:h-[376px] sm:w-[278px] sm:h-[53px] max-sm:w-[278px] max-sm:h-[53px]'>
           <img

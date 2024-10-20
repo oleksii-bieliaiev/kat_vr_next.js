@@ -2,7 +2,7 @@ import React from 'react'
 
 const MoreGaming = () => {
   return (
-    <section id='faq' className='relative flex flex-col max-sm:min-h-[100vh] md:min-h-[160vh] lg:min-h-[90vh] 2xl:min-h-[75vh] bg-black lg:pr-[110px] lg:pl-[110px] md:pr-[34px] md:pl-[34px] max-sm:pl-[34px] max-sm:pr-[34px]'>
+    <section id='faq' className='relative flex flex-col max-sm:h-[100vh] md:min-h-[160vh] lg:min-h-[90vh] 2xl:min-h-[75vh] bg-black lg:pr-[110px] lg:pl-[110px] md:pr-[34px] md:pl-[34px] max-sm:pl-[34px] max-sm:pr-[34px]'>
       <div className='grid lg:grid-cols-12 md:grid-cols-6 max-sm:grid-cols-2 md:place-items-center sm:justify-items-start max-sm:justify-items-start'>
       <img
           src="/images/Title.svg"

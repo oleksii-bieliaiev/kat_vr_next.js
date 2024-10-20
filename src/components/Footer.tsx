@@ -7,7 +7,7 @@ const Footer = () => {
   const [isHoveredWhat, setIsHoveredWhat] = useState(false);
 
   return (
-    <section id='contact' className='md:flex max-sm:grid max-sm:grid-cols-2 justify-between items-center lg:min-h-[14vh] md:min-h-[15vh] max-sm:min-h-[43vh] lg:pr-[110px] lg:pl-[110px] md:pr-[34px] md:pl-[34px] sm:pl-[34px] sm:pr-[34px] max-sm:pl-[34px] max-sm:pr-[34px] max-sm:pt-[45px] max-sm:pb-[45px] z-20 bg-black '>
+    <section id='contact' className='md:flex max-sm:grid max-sm:grid-cols-2 justify-between items-center lg:min-h-[14vh] md:min-h-[15vh] max-sm:h-[43vh] lg:pr-[110px] lg:pl-[110px] md:pr-[34px] md:pl-[34px] sm:pl-[34px] sm:pr-[34px] max-sm:pl-[34px] max-sm:pr-[34px] max-sm:pt-[45px] max-sm:pb-[45px] z-20 bg-black '>
       <img src="/images/Logo.svg" alt="Company Logo" className='w-16 h-4 max-sm:col-start-1 max-sm:col-span-1 md:w-20 md:h-5 object-contain' />
       <div className='text-white md:gap-9 max-sm:gap-3 max-sm:pt-3 flex md:flex-row max-sm:flex-col md:items-center max-sm:col-start-1 max-sm:col-span-1'>
         <a href='#about' className='relative cursor-pointer lg:text-base md:text-sm hover:text-[#05C2DF] before:absolute before:left-0 before:bottom-0 before:h-[1px] before:w-full before:bg-[#05C2DF] before:scale-x-0 before:origin-bottom-left before:transition-transform before:duration-300 hover:before:scale-x-100'>

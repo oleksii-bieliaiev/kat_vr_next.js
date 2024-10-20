@@ -6,10 +6,10 @@ type MenuProps = {
 
 const Menu: React.FC<MenuProps> = ({ onClose }) => {
   useEffect(() => {
-    // Блокируем скролл при открытом меню
+
     document.body.style.overflow = 'hidden';
 
-    // Восстанавливаем скролл при закрытии меню
+  
     return () => {
       document.body.style.overflow = 'auto';
     };
