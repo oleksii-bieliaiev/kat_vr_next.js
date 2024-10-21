@@ -23,7 +23,7 @@ const Version = () => {
           <img
             src="/images/gadgets_small.svg"
             alt="Image"
-            className='hidden max-sm:block sm:block md:hidden sm:w-[320px] sm:h-[152px] max-sm:w-[320px] max-sm:h-[152px] sm:mt-0 max-sm:mt-20 max-sm:object-cover max-sm:object-center'
+            className='hidden max-sm:block sm:block md:hidden sm:w-[320px] sm:h-[152px] max-sm:w-[320px] max-sm:h-[152px] sm:mt-0 max-sm:mt-[6rem] max-sm:object-cover max-sm:object-center'
           />
           <img
             src="/images/New_start_text.svg"
