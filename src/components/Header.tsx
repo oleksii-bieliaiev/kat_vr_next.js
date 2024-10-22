@@ -17,13 +17,13 @@ const Version = () => {
     <section id='page-top' className='relative flex flex-col h-screen bg-gradient-to-r from-[#191536] to-[#000000] overflow-hidden'>
       <NavBar />
 
-      <div className='grid lg:grid-cols-12 md:grid-cols-6 max-sm:grid-cols-2 lg:pr-[110px] md:pr-[34px] max-sm:pr-[34px] sm:pr-[34px] lg:pl-[110px] md:pl-[34px] max-sm:pl-[34px] sm:pl-[34px] min-h-screen md:place-items-center'>
+      <div className='grid lg:grid-cols-12 md:grid-cols-6 max-sm:grid-cols-2 lg:pr-[110px] md:pr-[34px] max-sm:pr-[34px] sm:pr-[34px] lg:pl-[110px] md:pl-[34px] max-sm:pl-[34px] sm:pl-[34px] max-sm:w-[320px] max-sm:mx-auto min-h-screen md:place-items-center'>
 
         <div className='2xl:col-start-1 2xl:col-span-4 lg:col-start-1 lg:col-span-4 md:col-start-1 md:col-span-3 sm:col-start-1 sm:col-span-2 max-sm:col-start-1 max-sm:col-span-2 flex flex-col items-center justify-center 2xl:translate-y-[-9rem] lg:translate-y-[-8rem] md:translate-y-[-2rem] max-sm:translate-y-[-5rem] relative'>
           <img
             src="/images/gadgets_small.svg"
             alt="Image"
-            className='hidden max-sm:block sm:block md:hidden sm:w-[320px] sm:h-[152px] max-sm:w-[320px] max-sm:h-[152px] sm:mt-0 max-sm:mt-[6rem] max-sm:object-cover max-sm:object-center'
+            className='hidden max-sm:block sm:block md:hidden sm:w-[310px] sm:h-[152px] max-sm:w-[310px] max-sm:h-[152px] sm:mt-0 max-sm:mt-[6rem] max-sm:object-cover max-sm:object-center'
           />
           <img
             src="/images/New_start_text.svg"
@@ -61,7 +61,7 @@ const Version = () => {
           </div>
 
           <Link href="#contact" passHref scroll={true}>
-            <button className="hidden max-sm:block sm:block md:hidden bg-[#05C2DF] hover:bg-white hover:text-[#05C2DF] text-white sm:mt-5 max-sm:mt-7 sm:mb-10 border border-[#05C2DF] rounded max-w-[265px] w-[80vw] h-[39px] transition-colors duration-300 ">
+            <button className="hidden max-sm:block sm:block md:hidden bg-[#05C2DF] hover:bg-white hover:text-[#05C2DF] text-white sm:mt-5 max-sm:mt-7 sm:mb-10 border border-[#05C2DF] rounded max-w-[255px] w-[80vw] h-[39px] transition-colors duration-300 ">
               Buy Now
             </button>
           </Link>
