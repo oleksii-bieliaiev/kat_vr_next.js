@@ -2,7 +2,8 @@ import React from 'react'
 
 const MoreGaming = () => {
   return (
-    <section id='faq' className='relative flex flex-col max-sm:h-[100vh] md:min-h-[160vh] lg:min-h-[90vh] 2xl:min-h-[75vh] bg-black lg:pr-[110px] lg:pl-[110px] md:pr-[34px] md:pl-[34px] max-sm:pl-[34px] max-sm:pr-[34px]'>
+    <section id='faq' className='relative flex flex-col max-sm:h-[100vh] md:min-h-[160vh] lg:min-h-[90vh] 2xl:min-h-[75vh] bg-black lg:pr-[110px] lg:pl-[110px] md:pr-[34px] md:pl-[34px]'>
+      <div className='max-sm:max-w-[320px] max-sm:w-[320px] max-sm:mx-auto max-sm:pl-[34px] max-sm:pr-[34px]'>
       <div className='grid lg:grid-cols-12 md:grid-cols-6 max-sm:grid-cols-2 md:place-items-center sm:justify-items-start max-sm:justify-items-start'>
       <img
           src="/images/Title.svg"
@@ -37,6 +38,7 @@ const MoreGaming = () => {
           <h3 className='mt-4 max-sm:mt-1 text-white text-base font-bold uppercase leading-normal mb-4'>Social integrations</h3>
           <p className='text-[#929292] md:text-center text-base font-normal max-sm:line-clamp-2 max-sm:max-w-[30ch]'>Hang out with your friends in the virtual world when you can’t meet space requirements</p>
         </div>
+      </div>
       </div>
     </section>
   )
