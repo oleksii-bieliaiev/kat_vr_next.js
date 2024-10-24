@@ -17,7 +17,7 @@ const Version = () => {
     <section id='page-top' className='relative flex flex-col h-screen bg-gradient-to-r from-[#191536] to-[#000000] overflow-hidden'>
       <NavBar />
 
-      <div className='grid lg:grid-cols-12 md:grid-cols-6 max-sm:grid-cols-2 lg:pr-[110px] md:pr-[34px] max-sm:pr-[34px] sm:pr-[34px] lg:pl-[110px] md:pl-[34px] max-sm:pl-[34px] sm:pl-[34px] max-sm:w-[320px] max-sm:mx-auto min-h-screen md:place-items-center'>
+      <div className='grid lg:grid-cols-12 md:grid-cols-6 max-sm:grid-cols-2 lg:pr-[110px] md:pr-[34px] max-sm:pr-[34px] sm:pr-[34px] lg:pl-[110px] md:pl-[34px] max-sm:pl-[34px] sm:pl-[34px] md:w-auto md:mx-0 sm:w-[320px] sm:mx-auto max-sm:w-[320px] max-sm:mx-auto min-h-screen md:place-items-center'>
 
         <div className='2xl:col-start-1 2xl:col-span-4 lg:col-start-1 lg:col-span-4 md:col-start-1 md:col-span-3 sm:col-start-1 sm:col-span-2 max-sm:col-start-1 max-sm:col-span-2 flex flex-col items-center justify-center 2xl:translate-y-[-9rem] lg:translate-y-[-8rem] md:translate-y-[-2rem] max-sm:translate-y-[-5rem] relative'>
           <img
@@ -53,7 +53,7 @@ const Version = () => {
             className='hidden md:flex lg:hidden object-cover object-left md:w-[483px] md:h-[195px] md:z-1'
           />
 
-          <div className='relative w-full 2xl:pl-[9%] 2xl:pr-[32%] lg:pl-[5%] lg:pr-[18%] md:pl-0 md:pr-[50%] max-sm:pl-0 max-sm:pr-[30%] sm:pl-0 sm:pr-[18%] 2xl:mt-8 lg:mt-6 md:mt-6 sm:mt-4 max-sm:mt-6 flex md:justify-start max-sm:justify-center sm:justify-center'>
+          <div className='relative w-full 2xl:pl-[9%] 2xl:pr-[32%] lg:pl-[5%] lg:pr-[18%] md:pl-0 md:pr-[60%] sm:pl-0 sm:pr-[30%] max-sm:pl-0 max-sm:pr-[30%] 2xl:mt-8 lg:mt-6 md:mt-6 sm:mt-4 max-sm:mt-6 flex md:justify-start max-sm:justify-center sm:justify-center'>
             <div
               className='lg:w-[286px] lg:h-[56px] md:w-[236px] md:h-[48px] max-sm:w-[236px] max-sm:h-[48px] sm:w-[236px] sm:h-[48px] cursor-pointer bg-[url(/images/Default_play.svg)] hover:bg-[url(/images/Button_video_hover.svg)] transition-all duration-300 bg-no-repeat bg-center bg-contain'
               onClick={toggleVideo}
