@@ -64,8 +64,8 @@ const Contacts = () => {
   };
 
   return (
-    <section id='contact' className='relative flex flex-col max-sm:h-[103vh] md:min-h-[130vh] lg:min-h-[85vh] 2xl:min-h-[70vh] 2xl:pt-[150px] 2xl:pb-[205px] lg:pt-[100px] lg:pb-[160px] md:pt-[70px] md:pb-[130px] sm:pt-[50px] max-sm:pt-[50px] bg-black lg:pr-[110px] lg:pl-[110px] md:pr-[34px] md:pl-[34px]'>
-      <div className='max-sm:max-w-[320px] max-sm:w-[320px] max-sm:mx-auto max-sm:pl-[34px] max-sm:pr-[34px]'>
+    <section id='contact' className='relative flex flex-col sm:min-h-[103vh] max-sm:h-[103vh] md:min-h-[130vh] lg:min-h-[85vh] 2xl:min-h-[70vh] 2xl:pt-[150px] 2xl:pb-[205px] lg:pt-[100px] lg:pb-[160px] md:pt-[70px] md:pb-[130px] sm:pt-[50px] max-sm:pt-[50px] bg-black lg:pr-[110px] lg:pl-[110px] md:pr-[34px] md:pl-[34px]'>
+      <div className='max-sm:max-w-[320px] sm:w-[320px] md:w-auto md:mx-0 sm:mx-auto max-sm:w-[320px] max-sm:mx-auto md:pl-0 md:pr-0 sm:pl-[34px] sm:pr-[34px] max-sm:pl-[34px] max-sm:pr-[34px]'>
         <div className='grid lg:grid-cols-12 md:grid-cols-6 max-sm:grid-cols-2 md:place-items-center sm:justify-items-start max-sm:justify-items-start lg:gap-1 md:gap-6'>
           <div className='flex flex-col lg:justify-center md:justify-start items-start 2xl:col-start-1 2xl:col-span-4 lg:col-start-1 lg:col-span-5 md:col-start-1 md:col-span-3 sm:col-start-1 sm:col-span-2 max-sm:col-start-1 max-sm:col-span-2 lg:w-[438px] lg:h-[276px] md:w-[340px] md:h-[376px] sm:w-[278px] sm:h-[53px] max-sm:w-[278px] max-sm:h-[53px]'>
             <img
@@ -84,14 +84,14 @@ const Contacts = () => {
             <a href='mailto:overseas@katvr.com' className='hidden md:inline text-[#929292] hover:text-[#05C2DF] mt-1'>overseas@katvr.com</a>
           </div>
 
-          <div className='flex 2xl:col-start-8 2xl:col-span-5 lg:col-start-7 lg:col-span-6 md:col-start-4 md:col-span-3 sm:col-start-1 sm:col-span-2 max-sm:col-start-1 max-sm:col-span-2 max-sm:mt-8'>
+          <div className='flex 2xl:col-start-8 2xl:col-span-5 lg:col-start-7 lg:col-span-6 md:col-start-4 md:col-span-3 sm:col-start-1 sm:col-span-2 max-sm:col-start-1 max-sm:col-span-2 sm:mt-8 max-sm:mt-8'>
             <form
               className='2xl:w-[541px] 2xl:h-[276px] lg:w-[521px] lg:h-[276px] md:w-[340px] md:h-[376px] sm:w-[80vw] sm:h-[320px] max-sm:w-[80vw] max-sm:h-[320px] space-y-6'
               onSubmit={handleSubmit}
               noValidate
             >
               {/* Name Input */}
-              <div className='flex flex-col items-start md:w-full max-sm:max-w-[255px] max-sm:w-[80vw] h-10 mb-6'>
+              <div className='flex flex-col items-start md:w-full md:max-w-none sm:max-w-[255px] sm:w-[80vw] max-sm:max-w-[255px] max-sm:w-[80vw] h-10 mb-6'>
                 <label className='block h-4 text-sm leading-none text-[#929292]' htmlFor='name-input'>
                   Name*
                 </label>
@@ -107,7 +107,7 @@ const Contacts = () => {
               </div>
 
               {/* Email Input */}
-              <div className='flex flex-col items-start md:w-full max-sm:max-w-[255px] max-sm:w-[80vw] h-10 mb-6'>
+              <div className='flex flex-col items-start md:w-full md:max-w-none sm:max-w-[255px] sm:w-[80vw] max-sm:max-w-[255px] max-sm:w-[80vw] h-10 mb-6'>
                 <label className='block h-4 text-sm leading-none text-[#929292]' htmlFor='email-input'>
                   Email*
                 </label>
@@ -123,7 +123,7 @@ const Contacts = () => {
               </div>
 
               {/* Phone Input */}
-              <div className='flex flex-col items-start md:w-full max-sm:max-w-[255px] max-sm:w-[80vw] h-10 mb-6'>
+              <div className='flex flex-col items-start md:w-full md:max-w-none sm:max-w-[255px] sm:w-[80vw] max-sm:max-w-[255px] max-sm:w-[80vw] h-10 mb-6'>
                 <label className='block h-4 text-sm text-[#929292] leading-none' htmlFor='phone-input'>
                   Phone*
                 </label>
@@ -139,7 +139,7 @@ const Contacts = () => {
               </div>
 
               {/* Message Textarea */}
-              <div className='flex flex-col items-start md:w-full max-sm:max-w-[255px] max-sm:w-[80vw] h-22 mb-6 md:mb-12 lg:mb-20'>
+              <div className='flex flex-col items-start md:w-full md:max-w-none sm:max-w-[255px] sm:w-[80vw] max-sm:max-w-[255px] max-sm:w-[80vw] h-22 mb-6 md:mb-12 lg:mb-20'>
                 <label className='block h-4 text-sm leading-none text-[#929292]' htmlFor='textarea'>
                   Message
                 </label>
@@ -155,7 +155,7 @@ const Contacts = () => {
               {/* Buttons Wrapper */}
               <div className='flex justify-between items-center pt-10'>
                 <button
-                  className='px-4 py-2 bg-[#05C2DF] hover:bg-white hover:text-[#05C2DF] text-white border border-[#05C2DF] rounded md:w-[200px] md:h-[48px] sm:w-[80vw] sm:h-[48px] max-sm:max-w-[255px] max-sm:w-[80vw] max-sm:h-[48px] transition-colors duration-300'
+                  className='px-4 py-2 bg-[#05C2DF] hover:bg-white hover:text-[#05C2DF] text-white border border-[#05C2DF] rounded md:w-[200px] md:h-[48px] md:max-w-none sm:max-w-[255px] sm:w-[80vw] sm:h-[48px] max-sm:max-w-[255px] max-sm:w-[80vw] max-sm:h-[48px] transition-colors duration-300'
                   type='submit'
                 >
                   Contact Us
@@ -172,7 +172,7 @@ const Contacts = () => {
                   onMouseLeave={handleMouseLeave}
                 />
               </div>
-              <p className='hidden max-sm:block text-[#929292] mt-8 text-xs font-normal'>Our manager will reply you within 15 minutes</p>
+              <p className='hidden md:hidden sm:block max-sm:block text-[#929292] mt-8 text-xs font-normal'>Our manager will reply you within 15 minutes</p>
             </form>
           </div>
         </div>

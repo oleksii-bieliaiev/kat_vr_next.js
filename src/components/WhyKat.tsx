@@ -3,12 +3,12 @@ import React from 'react'
 const WhyKat = () => {
   return (
     <section id='benefits' className='relative flex flex-col max-sm:h-[95vh] md:min-h-[95vh] lg:min-h-[90vh] 2xl:min-h-[75vh] bg-gradient-to-r from-[#191536] to-[#000000] lg:pr-[110px] lg:pl-[110px] md:pr-[34px] md:pl-[34px]'>
-      <div className='max-sm:max-w-[320px] max-sm:w-[320px] max-sm:mx-auto max-sm:pl-[34px] max-sm:pr-[34px]'>
+      <div className='max-sm:max-w-[320px] sm:w-[320px] md:w-auto md:mx-0 sm:mx-auto max-sm:w-[320px] max-sm:mx-auto md:pl-0 md:pr-0 sm:pl-[34px] sm:pr-[34px] max-sm:pl-[34px] max-sm:pr-[34px]'>
         <div className='grid lg:grid-cols-12 md:grid-cols-6 max-sm:grid-cols-2 lg:place-items-center md:place-items-start sm:justify-items-start max-sm:justify-items-start '>
           <img
             src="/images/WhyKat.svg"
             alt="Gadgets"
-            className='2xl:mt-[9.5rem] lg:mt-[6.5rem] md:mt-[4.5rem] max-sm:mt-[3rem] lg:w-[368px] lg:h-[44px] md:w-[180px] md:h-[25px] max-sm:w-[180px] max-sm:h-[25px] lg:col-start-5 lg:col-span-4 md:col-start-1 md:col-span-2 max-sm:col-start-1 max-sm:col-span-2'
+            className='2xl:mt-[9.5rem] lg:mt-[6.5rem] md:mt-[4.5rem] sm:mt-[3rem] max-sm:mt-[3rem] lg:w-[368px] lg:h-[44px] md:w-[180px] md:h-[25px] max-sm:w-[180px] max-sm:h-[25px] lg:col-start-5 lg:col-span-4 md:col-start-1 md:col-span-2 max-sm:col-start-1 max-sm:col-span-2'
           />
         </div>
 
