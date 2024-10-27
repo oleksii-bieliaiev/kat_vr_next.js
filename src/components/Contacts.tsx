@@ -71,14 +71,14 @@ const Contacts = () => {
             <img
               src="/images/Have_any_que.svg"
               alt='TechSpecs'
-              className='object-contain'
+              className='object-contain md:mt-4 lg:mt-8'
             />
             <img
               src="/images/GET_IN_TOUCH.svg"
               alt='TechSpecs'
               className='object-contain mt-3 lg:h-full md:h-[18px] sm:h-[18px] max-sm:h-[18px]'
             />
-            <p className='hidden md:inline text-[#929292] mt-7 text-base font-normal'>Our manager will reply you within 15 minutes</p>
+            <p className='hidden md:inline text-[#929292] md:mt-6 lg:mt-6 lg:mb-4 text-base font-normal'>Our manager will reply you within 15 minutes</p>
             <a href='tel:+86-0571-86105373' className='hidden md:inline text-[#929292] hover:text-[#05C2DF] mt-[5rem]'>+86-0571-86105373</a>
             <a href='mailto:global@katvr.com' className='hidden md:inline text-[#929292] hover:text-[#05C2DF] mt-3'>global@katvr.com</a>
             <a href='mailto:overseas@katvr.com' className='hidden md:inline text-[#929292] hover:text-[#05C2DF] mt-1'>overseas@katvr.com</a>
