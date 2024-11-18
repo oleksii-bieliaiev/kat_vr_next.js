@@ -8,6 +8,7 @@ import MoreGaming from "@/components/MoreGaming";
 import TechSpecs from "@/components/TechSpecs";
 import WhyKat from "@/components/WhyKat";
 import Footer from "@/components/Footer";
+import Last from "@/components/Last";
 
 
 export default function Home() {
@@ -21,6 +22,7 @@ export default function Home() {
       <WhyKat />
       <Contacts />
       <Footer />
+      <Last />
     </main>
   );
 }
