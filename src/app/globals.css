@@ -18,3 +18,56 @@
   src: url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
 }
 
+.purchase-section {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: -100vw; 
+  right: 0;
+  opacity: 0; 
+  pointer-events: none; 
+  transition: left 5s ease, opacity 5s ease; 
+  overflow: auto;
+}
+
+.purchase-visible {
+  left: 0; 
+  opacity: 1; 
+  pointer-events: all; 
+}
+
+.pay-section {
+  position: fixed;
+  z-index: 150; 
+  top: -100vh;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  pointer-events: none;
+  transition: top 0.5s ease, opacity 0.5s ease;
+  overflow: auto;
+}
+
+.pay-visible {
+  top: 0;
+  opacity: 1;
+  pointer-events: all;
+}
+
+.order-complete-section {
+  position: fixed;
+  z-index: 200; 
+  top: -100vh;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  pointer-events: none;
+  transition: top 0.5s ease, opacity 0.5s ease;
+  overflow: auto;
+}
+
+.order-complete-visible {
+  top: 0;
+  opacity: 1;
+  pointer-events: all;
+}

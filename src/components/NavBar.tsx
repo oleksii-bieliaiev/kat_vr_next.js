@@ -1,8 +1,12 @@
 import React, { useState } from 'react'
 import Menu from './Menu';
-import Link from 'next/link';
 
-const NavBar = () => {
+
+interface NavBarProps {
+  togglePurchase: () => void;
+}
+
+const NavBar: React.FC<NavBarProps> = ({ togglePurchase }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isHovered, setIsHovered] = useState(false);
 
@@ -33,13 +37,13 @@ const NavBar = () => {
         <a href='#contact' className='relative cursor-pointer hover:text-[#05C2DF] before:absolute before:left-0 before:bottom-0 before:h-[1px] before:w-full before:bg-[#05C2DF] before:scale-x-0 before:origin-bottom-left before:transition-transform before:duration-300 hover:before:scale-x-100'>
           Contact
         </a>
-        <Link href="#contact" passHref scroll={true}>
-          <button
-            className="bg-[#05C2DF] hover:bg-white hover:text-[#05C2DF] text-white py-2 px-4 border border-[#05C2DF] rounded w-[200px] h-[48px] transition-colors duration-300"
-          >
-            Buy Now
-          </button>
-        </Link>
+        <button
+          onClick={togglePurchase} 
+          className="bg-[#05C2DF] hover:bg-white hover:text-[#05C2DF] text-white py-2 px-4 border border-[#05C2DF] rounded w-[200px] h-[48px] transition-colors duration-300"
+        >
+          Buy Now
+        </button>
+
       </div>
       <div className='lg:hidden justify-end items-center'>
         <img
