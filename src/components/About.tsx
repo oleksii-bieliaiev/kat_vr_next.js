@@ -27,7 +27,7 @@ const About = () => {
   };
 
   return (
-    <section id='about' className='relative flex flex-col justify-center lg:min-h-[103vh] md:min-h-[150vh] sm:min-h-[177vh] bg-gradient-to-r from-[#191536] to-[#000000] lg:pr-[110px] lg:pl-[110px] md:pr-[34px] md:pl-[34px] lg:pb-[130px] lg:pt-[130px] md:pb-[70px] md:pt-[70px] sm:pt-[40px] sm:pb-[50px] max-sm:pt-[40px] max-sm:pb-[50px]'>
+    <section id='about' className='overflow-x-hidden relative flex flex-col justify-center lg:min-h-[103vh] md:min-h-[80vh] sm:min-h-[177vh] bg-gradient-to-r from-[#191536] to-[#000000] lg:pr-[110px] lg:pl-[110px] md:pr-[34px] md:pl-[34px] lg:pb-[130px] lg:pt-[130px] md:pb-[70px] md:pt-[70px] sm:pt-[40px] sm:pb-[50px] max-sm:pt-[40px] max-sm:pb-[50px]'>
       <div className='grid lg:grid-cols-12 md:grid-cols-6 lg:gap-1 md:gap-2 sm:grid-cols-2 max-sm:grid-cols-2 max-sm:max-w-[320px] sm:w-[320px] md:w-auto md:mx-0 sm:mx-auto max-sm:w-[320px] max-sm:mx-auto md:pr-0 md:pl-0 sm:pl-[34px] sm:pr-[34px] max-sm:pl-[34px] max-sm:pr-[34px]'>
         <div className='lg:col-start-3 lg:col-span-10 md:col-start-1 md:col-span-6 sm:col-start-1 sm:col-span-2 max-sm:col-start-1 max-sm:col-span-2 lg:mt-0 2xl:pt-0 max-sm:mt-[1rem] md:mt-0 sm:mt-[1rem]'>
           <div className='flex flex-col lg:flex-row md:flex-row items-start h-full'>

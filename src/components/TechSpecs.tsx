@@ -19,7 +19,7 @@ const TechSpecs = () => {
   };
 
   return (
-    <section id='tech' className='relative flex flex-col justify-center 2xl:min-h-[72vh] lg:min-h-[82vh] md:min-h-[120vh] max-sm:h-[68vh] bg-black lg:pl-[110px] lg:pr-[110px] lg:pt-[100px] lg:pb-[100px] md:pt-[80px] md:pb-[80px] md:pl-[32px] md:pr-[32px] sm:pt-[50px] sm:pb-[50px] max-sm:pt-[50px] max-sm:pb-[50px]'>
+    <section id='tech' className='overflow-x-hidden relative flex flex-col justify-center 2xl:min-h-[72vh] lg:min-h-[82vh] md:min-h-[60vh] max-sm:h-[68vh] bg-black lg:pl-[110px] lg:pr-[110px] lg:pt-[100px] lg:pb-[100px] md:pt-[80px] md:pb-[80px] md:pl-[32px] md:pr-[32px] sm:pt-[50px] sm:pb-[50px] max-sm:pt-[50px] max-sm:pb-[50px]'>
       <div className='grid lg:grid-cols-12 md:grid-cols-6 sm:grid-cols-2 max-sm:grid-cols-2 justify-center relative md:w-auto md:mx-0 sm:w-[320px] sm:mx-auto max-sm:max-w-[320px] max-sm:w-[320px] max-sm:mx-auto md:pl-0 md:pr-0 sm:pl-[34px] sm:pr-[34px] max-sm:pl-[34px] max-sm:pr-[34px]'>
         <img
           src="/images/TechSpecs_big.svg"

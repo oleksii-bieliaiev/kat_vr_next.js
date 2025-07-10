@@ -22,7 +22,7 @@ const NavBar: React.FC<NavBarProps> = ({ togglePurchase }) => {
     setIsHovered(false);
   };
   return (
-    <div className='flex justify-between items-center md:pt-6 2xl:pt-14 lg:pt-10 pt-7 lg:pl-[110px] lg:pr-[110px] md:pr-[34px] md:pl-[34px] sm:pl-[34px] sm:pr-[34px] md:w-auto md:mx-0 sm:w-[320px] sm:mx-auto max-sm:w-[320px] max-sm:mx-auto max-sm:pl-[34px] max-sm:pr-[34px] z-20'>
+    <div className='flex justify-between items-center md:pt-6 2xl:pt-14 lg:pt-10 pt-7 lg:pl-[110px] lg:pr-[110px] md:pr-[34px] md:pl-[34px] sm:pl-[34px] sm:pr-[34px] md:w-auto md:mx-0 sm:w-[320px] sm:mx-auto max-sm:w-[320px] max-sm:mx-auto max-sm:pl-[34px] max-sm:pr-[34px] z-20 lg:mb-0 md:mb-[4rem]'>
       <img src="/images/Logo.svg" alt="Company Logo" className='w-16 h-4 md:w-20 md:h-5 object-contain' />
       <div className='text-white md:gap-9 lg:flex hidden items-center'>
         <a href='#about' className='relative cursor-pointer hover:text-[#05C2DF] before:absolute before:left-0 before:bottom-0 before:h-[1px] before:w-full before:bg-[#05C2DF] before:scale-x-0 before:origin-bottom-left before:transition-transform before:duration-300 hover:before:scale-x-100'>

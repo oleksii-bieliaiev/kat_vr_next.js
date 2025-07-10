@@ -7,7 +7,7 @@ const Footer = () => {
   const [isHoveredWhat, setIsHoveredWhat] = useState(false);
 
   return (
-    <section id='contact' className='md:pt-10 md:pb-auto lg:pt-10 lg:pb-10 2xl:pt-14 2xl:pb-14 2xl:min-h-[13vh] lg:min-h-[14vh] md:min-h-[15vh] max-sm:h-[43vh] lg:pr-[110px] lg:pl-[110px] md:pr-[34px] md:pl-[34px] sm:pt-[45px] sm:pb-[45px] max-sm:pt-[45px] max-sm:pb-[45px] z-20 bg-black '>
+    <section id='contact' className='md:pt-10 md:pb-auto lg:pt-10 lg:pb-10 2xl:pt-14 2xl:pb-14 2xl:min-h-[13vh] lg:min-h-[14vh] md:min-h-[10vh] max-sm:h-[43vh] lg:pr-[110px] lg:pl-[110px] md:pr-[34px] md:pl-[34px] sm:pt-[45px] sm:pb-[45px] max-sm:pt-[45px] max-sm:pb-[45px] z-20 bg-black '>
       <div className='max-sm:max-w-[320px] sm:w-[320px] md:w-auto md:mx-0 sm:mx-auto max-sm:w-[320px] max-sm:mx-auto md:pl-0 md:pr-0 sm:pl-[34px] sm:pr-[34px] max-sm:pl-[34px] max-sm:pr-[34px]'>
       <div className='md:flex justify-between items-center sm:grid sm:grid-cols-2 max-sm:grid max-sm:grid-cols-2'>
       <img src="/images/Logo.svg" alt="Company Logo" className='w-16 h-4 sm:col-start-1 sm:col-span-1 max-sm:col-start-1 max-sm:col-span-1 md:w-20 md:h-5 object-contain' />

@@ -21,12 +21,12 @@ const Header = () => {
   };
 
   return (
-    <section id='page-top' className='relative flex flex-col h-screen bg-gradient-to-r from-[#191536] to-[#000000] overflow-hidden'>
+    <section id='page-top' className='relative flex flex-col lg:h-screen md:h-auto sm:h-auto max-sm:h-screen bg-gradient-to-r from-[#191536] to-[#000000] overflow-hidden lg:mb-0 md:mb-[3.1rem]'>
       <NavBar togglePurchase={togglePurchase}/>
 
-      <div className='grid lg:grid-cols-12 md:grid-cols-6 max-sm:grid-cols-2 lg:pr-[110px] md:pr-[34px] max-sm:pr-[34px] sm:pr-[34px] lg:pl-[110px] md:pl-[34px] max-sm:pl-[34px] sm:pl-[34px] md:w-auto md:mx-0 sm:w-[320px] sm:mx-auto max-sm:w-[320px] max-sm:mx-auto min-h-screen md:place-items-center'>
+      <div className='grid lg:grid-cols-12 md:grid-cols-6 max-sm:grid-cols-2 lg:pr-[110px] md:pr-[34px] max-sm:pr-[34px] sm:pr-[34px] lg:pl-[110px] md:pl-[34px] max-sm:pl-[34px] sm:pl-[34px] md:w-auto md:mx-0 sm:w-[320px] sm:mx-auto max-sm:w-[320px] max-sm:mx-auto lg:min-h-screen lg:place-items-center max-sm:min-h-screen'>
 
-        <div className='2xl:col-start-1 2xl:col-span-4 lg:col-start-1 lg:col-span-4 md:col-start-1 md:col-span-3 sm:col-start-1 sm:col-span-2 max-sm:col-start-1 max-sm:col-span-2 flex flex-col items-center justify-center 2xl:translate-y-[-9rem] lg:translate-y-[-7rem] md:translate-y-[-2rem] max-sm:translate-y-[-5rem] relative'>
+        <div className='2xl:col-start-1 2xl:col-span-4 lg:col-start-1 lg:col-span-4 md:col-start-1 md:col-span-3 sm:col-start-1 sm:col-span-2 max-sm:col-start-1 max-sm:col-span-2 flex flex-col items-center justify-center 2xl:translate-y-[-9rem] lg:translate-y-[-7rem] md:translate-y-[1rem] max-sm:translate-y-[-5rem] relative'>
           <img
             src="/images/gadgets_small.svg"
             alt="Image"

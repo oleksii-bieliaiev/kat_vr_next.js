@@ -2,7 +2,7 @@ import React from 'react'
 
 const WhyKat = () => {
   return (
-    <section id='benefits' className='relative flex flex-col max-sm:justify-center max-sm:h-[95vh] md:min-h-[95vh] lg:min-h-[90vh] 2xl:min-h-[75vh] bg-gradient-to-r from-[#191536] to-[#000000] lg:pr-[110px] lg:pl-[110px] md:pr-[34px] md:pl-[34px]'>
+    <section id='benefits' className='relative flex flex-col max-sm:justify-center max-sm:h-[95vh] md:min-h-[40vh] lg:min-h-[90vh] 2xl:min-h-[75vh] bg-gradient-to-r from-[#191536] to-[#000000] lg:pr-[110px] lg:pl-[110px] md:pr-[34px] md:pl-[34px]'>
       <div className='max-sm:max-w-[320px] sm:w-[320px] md:w-auto md:mx-0 sm:mx-auto max-sm:w-[320px] max-sm:mx-auto md:pl-0 md:pr-0 sm:pl-[34px] sm:pr-[34px] max-sm:pl-[34px] max-sm:pr-[34px]'>
         <div className='grid lg:grid-cols-12 md:grid-cols-6 max-sm:grid-cols-2 lg:place-items-center md:place-items-start sm:justify-items-start max-sm:justify-items-start '>
           <img
